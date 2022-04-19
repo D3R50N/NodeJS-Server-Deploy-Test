@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
 });
 server.listen(port, (err) => {
     if (err) {
-        console.log("Oups..", err);
+        console.log("Oups...", err);
         return;
     }
     console.log("Listening on port http://127.0.0.1:" + port);
